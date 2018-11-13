@@ -239,6 +239,11 @@
       <optional>true</optional>
     </dependency>
     <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-compress</artifactId>
+      <version>1.18</version>
+    </dependency>
+    <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-codegen</artifactId>
       <version>3.5.4</version>
@@ -285,6 +290,11 @@
        <artifactId>jackson-mapper-asl</artifactId>
       </exclusion>
      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>24.1.1-android</version>
     </dependency>
     <dependency>
       <groupId>com.google.cloud</groupId>
